@@ -1,0 +1,19 @@
+﻿<Window x:Class="Class1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Class1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="MIS Review Stuff" HorizontalAlignment="Left" Margin="291,54,0,0" VerticalAlignment="Top" Height="43" Width="189" FontSize="22"/>
+        <ListBox x:Name="WordList" HorizontalAlignment="Left" Height="251" Margin="10,159,0,0" VerticalAlignment="Top" Width="283"/>
+        <ListBox x:Name="NumList" HorizontalAlignment="Left" Height="256" Margin="502,154,0,0" VerticalAlignment="Top" Width="282" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="Words" HorizontalAlignment="Left" Margin="108,116,0,0" VerticalAlignment="Top" Height="43" Width="85" FontSize="22"/>
+        <Label Content="Numbers" HorizontalAlignment="Left" Margin="581,111,0,0" VerticalAlignment="Top" Height="43" Width="104" FontSize="22"/>
+        <Button x:Name="btb" Content="Button" HorizontalAlignment="Left" Margin="418,101,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.496,0.474" Click="btb_Click" IsDefault="True"/>
+        <TextBox x:Name="ansBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="273,93,0,0" RenderTransformOrigin="0.525,-0.848"/>
+        <Label Content="Please Type A Word or Num" HorizontalAlignment="Left" Margin="92,93,0,0" VerticalAlignment="Top" Height="37" Width="176"/>
+    </Grid>
+</Window>
